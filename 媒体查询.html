@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (min-width:768px) {
+            body {
+                background-color: #5f3;
+            }
+        }
+        @media (min-width: 992px) {
+            body {
+                background-color: #f30;
+            }
+        }
+        @media (min-width: 1200px) {
+            body {
+                background-color: #a22;
+            }
+        }
+        .box {
+            display: flex;
+            width: 100%;
+        }
+        .left {
+            min-height: 500px;
+            width: 300px;
+            background-color: skyblue;
+        }
+        .main {
+            min-height: 500px;
+            background-color: burlywood;
+            flex: 1;
+        }
+        @media (max-width: 768px) {
+            .left {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left">1</div>
+        <div class="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iure, vero alias architecto ad consequatur tempore, et minima autem similique dicta. Accusamus eaque quasi assumenda sapiente ducimus magnam cupiditate illum!
+        Reiciendis assumenda facere blanditiis culpa ad maxime accusantium officia cupiditate quod corporis molestiae sed delectus est nisi nulla provident labore alias temporibus eum placeat, eligendi sit. Animi possimus voluptatibus enim.
+        Itaque, labore autem aliquam molestias sapiente magnam quasi aspernatur incidunt similique eaque eveniet quod debitis neque fugit mollitia in ducimus asperiores iste id facilis placeat at voluptate commodi. Beatae, ab!
+        Ex consectetur quaerat dignissimos iusto molestias dolorum corrupti quam veniam neque reiciendis expedita a magnam ad in repudiandae dolor, esse odio, unde maiores? Facere cum minus aliquid, quo aperiam dolorem.
+        Natus provident deserunt nisi omnis, laboriosam aliquid explicabo reprehenderit, voluptas, cum iste dicta? Veritatis, nam adipisci tempora repellendus quas hic sed laborum quasi neque, temporibus totam illum praesentium accusantium porro.</div>
+    </div>
+</body>
+</html>
